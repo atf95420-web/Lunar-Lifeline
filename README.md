@@ -1,20 +1,20 @@
-# Lunar Lifeline
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-A five-minute survival game on the Moon, built on NASA crew-health research.
-Keep oxygen, food and energy above zero while the generator fails without warning.
+# Run and deploy your AI Studio app
 
-## Run
+This contains everything you need to run your app locally.
 
-npm install
-npm run dev
+View your app in AI Studio: https://ai.studio/apps/3d9c10a0-52a1-474e-8738-7698da89218c
 
-## NASA sources
+## Run Locally
 
-1. **Humans to Mars** — https://www.nasa.gov/humans-in-space/humans-to-mars/
-   How NASA plans to keep crews alive on the way to Mars: oxygen (MOXIE), food, water, power and shelter.
+**Prerequisites:**  Node.js
 
-2. **The Menu for Mars: Designing a Deep Space Food System** — https://www.nasa.gov/humans-in-space/the-menu-for-mars-designing-a-deep-space-food-system/
-   Why astronauts cannot rely on resupply missions and how NASA designs food systems for long missions.
 
-3. **Radiation Protection** — https://www.nasa.gov/radiation-protection/
-   How crews are shielded from space radiation and how radiation affects crew health and stress.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
